@@ -381,6 +381,7 @@ void mode_to_letters(int mode, char str[]){
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 #include<pwd.h>
+
 char *uid_to_name(uid_t uid){
 	//return pointer to username associated with uid.
 	struct passwd *getpwuid(), *pw_ptr;
